@@ -1,5 +1,7 @@
 # Kings County Housing Prices
 
+### Find Jupyter Notebook With the following link: [Link to Jupyter Notebook](./[KC Housing Prices Model].ipynb)
+
 ## Contents
 ### 1. Objective
 ### 2. Data Cleaning
