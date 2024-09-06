@@ -20,7 +20,7 @@ This project deals with the prices of houses in Kings County, Washington. The da
 Throughout the course of the project, I will be trying to understand, analyse how these factors contribute to the prices and will build a regression model that can predict prices based on the given features
 
 <br>
-### All project files including Data, Jupyter Notebook and Tableau Dashboard can be acessed from above
+### All project files including Data and Jupyter Notebook can be acessed from above
 <br><br>
 ## Data Cleaning
 1. Removed 177 duplicates from the "id" column
