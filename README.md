@@ -1,14 +1,31 @@
 # Kings County Housing Prices
 
+## Contents
+### 1. Objective
+### 2. Data Cleaning
+### 3. Feature Generation
+### 4. Exploratory Data Analysis
+### 5. Feature Selection
+### 6. Model Comparison
+### 7. Chosen Model
+### 8. Tableau Dashboard
+
+<br><br><br>
+
+
+
 ## Objective
 This project deals with the prices of houses in Kings County, Washington. The data provided contains various features that help to determine the prices. 
 
 Throughout the course of the project, I will be trying to understand, analyse how these factors contribute to the prices and will build a regression model that can predict prices based on the given features
 
+<br>
+### All project files including Data, Jupyter Notebook and Tableau Dashboard can be acessed from above
+<br><br>
 ## Data Cleaning
 1. Removed 177 duplicates from the "id" column
 2. Managing outliers
-
+<br><br>
 ## Feature Generation 
 *1. Age*
    ```python
@@ -22,7 +39,7 @@ df["basement_present"] = df["sqft_basement"].apply(lambda x: 1 if x>0 else 0)
  ```python
 df["renovated"] = df["yr_renovated"].apply(lambda x: 1 if x>0 else 0)
 ```
-
+<br><br>
 ## Exploratory Data Analysis
 
 ### Questions
@@ -56,13 +73,13 @@ A sample of 200 houses was taken for each category
 
    The two sample test gave a p-value of 0.0000000139 which is lower than 0.05 therefore we reject the null hypothesis
 
-
+<br><br>
 ## Feature Selection
 1. Year Built and Date were dropped as the new Age column made them redundant
 2. Yr_Renovated was dropped as a majority of the values were 0
 3. Zipcode was dropped as it had too many distinct values to be converted to dummy columns
 
-
+<br><br>
 ## Model Comparison
 ![image](https://github.com/user-attachments/assets/4671c0fa-8d52-4bb0-8789-44c83e1bee9d)
 
@@ -78,7 +95,10 @@ After tuning hyperparameters of Xgboost with max depth as 5 and n_estimators as 
 Other Models:
 1. Linear regression was extremely underfitted and was not performing well. 
 2. Random forest model was overfitting
+<br><br>
+## Tableau Dashboard
 
+![image](https://github.com/user-attachments/assets/3d93aab6-4207-4a84-b546-af56ad928046)
 
 
 
