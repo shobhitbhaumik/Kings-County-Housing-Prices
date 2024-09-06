@@ -14,12 +14,11 @@
 
 
 
-## Objective
-This project deals with the prices of houses in Kings County, Washington. The data provided contains various features that help to determine the prices. 
+## Overview
+This project deals with the prices of houses in Kings County, Washington. The data provided contains various features such as squarefeet of living space, no. of bedrooms. view on a scale of 1 to 5 etc. that help to determine the prices. 
 
 Throughout the course of the project, I will be trying to understand, analyse how these factors contribute to the prices and will build a regression model that can predict prices based on the given features
 
-<br>
 ### All project files including Data and Jupyter Notebook can be acessed from above
 <br><br>
 ## Data Cleaning
